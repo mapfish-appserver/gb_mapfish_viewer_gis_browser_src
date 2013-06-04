@@ -1,0 +1,10 @@
+{
+    "user": {
+        "login": "admin",
+        "email": "gisbrowser@bd.zh.ch"
+    },
+    "success": true,
+    "roles": [
+        "admin"
+    ]
+}

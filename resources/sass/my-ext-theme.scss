@@ -1,0 +1,96 @@
+// Unless you want to include all components, you must set $include-default to false
+// IF you set this to true, you can also remove lines 10 to 38 of this file
+$include-default: true;
+
+// Insert your custom variables here.
+$base-color: #ffffff;
+$font-size: 14px;
+
+$font-family: Arial, Helvetica, sans-serif;
+
+$tab-base-color: #e1e1e1;
+$tab-base-color-active: #ffffff;
+
+// $tabbar-base-color: #ff00ff;
+// $tab-background-over: #0000ff;
+$tab-color: #000000;
+$tab-color-over: #d80b3a;
+$tab-color-active: #d80b3a;
+
+$tab-font-weight-active: bold;
+$tab-font-weight: normal;
+
+$tabbar-base-color: #ffffff;
+$tabbar-strip-height: 0;
+$tabbar-strip-background-color: #ffffff;
+$tabbar-top-body-border-width: 0px;
+$tabbar-bottom-body-padding: 45px;
+
+$panel-body-border-color: #c2c2c2;
+$panel-header-border-color: #c2c2c2;
+$panel-header-background-color: #666666;
+$panel-header-background-gradient: null;
+$panel-header-color: #ffffff;
+// $panel-header-padding: 0 0 0 0;
+
+$toolbar-background-color:  #fafafa;
+
+$accordion-header-background-color: #e1e1e1;
+//$accordion-header-color: #d80b3a;
+$accordion-header-weight-active: bold;
+
+$grid-header-over-background-color: #fff;
+$grid-header-over-background-gradient: 'grid-header';
+
+$base-gradient: 'grid-header';
+
+// $color: #e1e1e1;
+
+
+@import 'ext4/default/all';
+
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+
+
+@include extjs-boundlist;
+@include extjs-button;
+@include extjs-btn-group;
+@include extjs-datepicker;
+@include extjs-colorpicker;
+@include extjs-menu;
+@include extjs-grid;
+@include extjs-form;
+    @include extjs-form-field;
+    @include extjs-form-fieldset;
+    @include extjs-form-file;
+    @include extjs-form-checkboxfield;
+    @include extjs-form-checkboxgroup;
+    @include extjs-form-triggerfield;
+    @include extjs-form-htmleditor;
+@include extjs-panel;
+@include extjs-qtip;
+@include extjs-slider;
+@include extjs-progress;
+@include extjs-toolbar;
+@include extjs-window;
+@include extjs-messagebox;
+@include extjs-tabbar;
+@include extjs-tab;
+@include extjs-tree;
+@include extjs-drawcomponent;
+@include extjs-viewport;
+
+        @include extjs-dragdrop;
+        @include extjs-resizable;
+        @include extjs-splitter;
+        @include extjs-layout;
+        @include extjs-tool;
+        @include extjs-scroller;
+
+// This line changes the location of your images when creating UIs to be relative instead of within the ExtJS directory.
+// You MUST set this to true/string value if you are creating new UIs + supporting legacy browsers.
+// This only applies to new UIs. It does not apply to default component images (i.e. when changing $base-color)
+// The value can either be true, in which case the image path will be "../images/"
+// or a string, of where the path is
+$relative-image-path-for-uis: true; // defaults to "../images/" when true

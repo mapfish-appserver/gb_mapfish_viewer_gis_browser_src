@@ -1,0 +1,319 @@
+@media print {
+.noPrint {
+    display:none;
+}
+}
+
+.bgselector{
+font-size: 90%;
+}
+
+.metadata {
+  color: #039;
+  margin-bottom: 10px;
+}
+
+.infogem, .infokoord, .infozahlds {
+font-size: 90%;
+}
+
+.infokoord{
+padding-bottom: 5px;
+}
+
+#infomeasure {
+background-color:#949;
+}
+
+#infoxy {
+font-weight: bold;
+}
+
+.legpart, .infopart {
+padding-top: 12px;
+padding-bottom: 5px;
+border-top-style: dotted;
+border-top-color: #d0d0d0;
+border-top-width: 1px;
+}
+
+.legtabsymbol {
+padding-top: 5px;
+vertical-align: top;
+}
+
+.legtabtext {
+padding-left: 3px;
+padding-right: 3px;
+}
+
+.layertitle {
+font-size: 11px;
+font-weight: bold;
+}
+
+.t1, .t2, .t3 {
+padding-top: 5px;
+}
+
+.t1 {
+font-size: 120%;
+font-weight: bold;
+}
+
+.t2 {
+font-size: 100%;
+font-weight: bold;
+}
+.t3 {
+font-size: 12px;
+}
+.t4 {
+font-size: 85%;
+}
+
+img.bottom {vertical-align:text-bottom;}
+
+.kartentitel {
+	text-align: right;
+	vertical-align: middle;
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+#logo {
+	color: #00f;
+}
+#logo strong {
+	font-family: "Arial Black",Arial,Helvetica,sans-serif;
+
+}
+
+/* ------------------------------------------------------------------- 
+   Servicenavigation
+---------------------------------------------------------------------- */
+#naviBackground {
+ // max-width: 960px;
+  width: 100%; 
+/*  width: expression((document.body.clientWidth > 960) ? "960px" : "100%");*/
+  background-color:#039;
+  text-align:left;
+  border-bottom:1px solid #FFF;
+  float:left;
+  font-size: 11px;
+}
+
+#naviBackground ul {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	list-style:none;
+}
+
+#naviBackground li {
+  margin: 0px;
+  float:left;
+}
+
+
+#naviBackground a:link, #naviBackground a:active, #naviBackground a:visited {
+color: #fff;
+text-decoration: none;
+}
+
+#navi {
+  margin-top:4px;
+  text-align:left;
+  color:#fff;
+  padding:0 0px 0px 15px;
+  height:16px;
+  float:left;
+
+}
+
+.naviDiv {
+  margin-top:0px;
+  text-align:left;
+  color:#fff;
+  padding:0px 5px 0px 5px;
+  float:left;
+  border-right:1px solid #fff;
+}
+
+.naviDivEnd {
+  margin-top:0px;
+  text-align:left;
+  padding:0px 5px 0px 5px;
+  float:left;
+}
+
+.naviInactiveColor {
+  color:#333;
+  font-size:0.9em;
+  line-height:1.2em;
+}
+
+/* ------------------------------------------------------------------- 
+	rechtsbuendiges
+---------------------------------------------------------------------- */
+#naviRight {
+  margin-left:20px;
+  padding:0;
+  margin-top: 4px;
+  float:right;
+  white-space: nowrap;
+  height: 16px;
+}
+
+#user {
+color: #fff;
+font-weight: bold;
+}
+
+a:link, a:active,a:visited {
+color: #1D5F9F;
+text-decoration: none;
+}
+
+.specialtheme  .x-grid-cell {
+background-color: #edd ! important;
+}
+
+.hiddenscales {
+color:gray;
+}
+
+.hiddenscales:hover {
+color:#000;
+}
+
+#info table {
+font-size:11px;
+color:#000;
+}
+
+#info a {
+font-size:11px;
+color:#039;
+text-decoration:none;
+}
+
+#info a:hover {
+color: #333;
+text-decoration:underline;
+}
+
+.markfeature {
+background: url("/img/pen.png") no-repeat scroll 18px 0;
+display: block;
+text-indent: -9999px;
+overflow: hidden;
+}
+
+TABLE.infotab {
+border-right:#999 1px;
+border-top:#999 1px;
+border-left:#999 1px;
+border-bottom:#999 1px;
+background-color:#949;
+margin-bottom:5px;
+}
+a:link, a:active, a:visited {
+  color: #039;
+  text-decoration: none;
+}
+
+TH {
+font-weight:bolder;
+font-size:11px;
+font-family:Arial, Verdana;
+}
+
+TD {
+font-size:11px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+TD.xmpcode {
+border-right:#999 1pt solid;
+border-top:#999 1pt solid;
+border-left:#999 1pt solid;
+color:#000;
+border-bottom:#999 1pt solid;
+background-color:#ffffe0;
+bgcolor:#ffffE0;
+}
+
+TD.tabtitle, .infotabtitle {
+border-right:#999 0 solid;
+border-top:#999 0 solid;
+font-weight:bolder;
+border-left:#999 0 solid;
+color:#000;
+border-bottom:#999 0 solid;
+background-color:#e3e3e3;
+padding:2px 5px;
+}
+
+TD.tabcell, .infotabcell {
+border-right:#999 0 solid;
+border-top:#999 0 solid;
+border-left:#999 0 solid;
+color:#000;
+border-bottom:#999 0 solid;
+background-color:#fafafa;
+padding:2px 5px;
+}
+
+#info tr {
+line-height:15px;
+}
+
+
+
+#legtxt, #info {
+padding-top:0px;
+padding-bottom:5px;
+padding-left:5px;
+padding-right:5px;
+}
+
+#legtxt .layer,#info .layer {
+font-size:13px;
+font-weight:700;
+color:#000;
+padding-top:0px;
+padding-bottom:5px;
+padding-left:0px;
+padding-right:5px;
+}
+
+#legtxt .layertitle,#info .layertitle {
+font-size:11px;
+font-weight:700;
+color:#000;
+padding-top:20px;
+padding-bottom:0px;
+padding-left:0px;
+padding-right:5px;
+}
+
+#legtxt a:hover,#legtxt a:active,#info a:hover,#info a:active {
+color:#f00000;
+text-decoration:none;
+}
+
+/*------------------------------------------------------------------------------
+  OpenLayers
+------------------------------------------------------------------------------*/
+
+.olHandlerBoxZoomBox {
+    border: 2px solid #003399;
+    position: absolute;
+    background-color: white;
+    opacity: 0.50;
+    font-size: 1px;
+    filter: alpha(opacity=50);
+}

@@ -1,0 +1,13 @@
+{
+    "--title": "Gis Browser Docs",
+    "-o": "docs",
+    "--": [
+        "./*.js",
+		"locale",
+		"app/view",
+		"app/controller",
+		"lib/GbZh/base",
+		"lib/GbZh/model",
+		"lib/GbZh/store"
+    ]
+}

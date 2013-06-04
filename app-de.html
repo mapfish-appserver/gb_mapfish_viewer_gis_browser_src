@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>gb41</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../../lib/ext/ext-4.1.1a/resources/css/ext-all.css"/>
+	<link rel="stylesheet" type="text/css" href="extjs/resources/css/gbzh-dark.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/my-ext-theme.css"> -->
+	<link rel="stylesheet" type="text/css" href="resources/css/cdzh/app.css"/>
+	<link rel="stylesheet" type="text/css" href="../../lib/GbZh/css/gbzh.css"/>
+	<link rel="stylesheet" type="text/css" href="../../lib/GbZh/css/general.css"/>
+
+	<!--	<script type="text/javascript" src="../../lib/ext/ext-4.1.1a/ext-dev.js"></script> -->
+	<!--	<script type="text/javascript" src="../../lib/ext/extjs-4.1.1/ext-all.js"></script>-->
+	<script type="text/javascript" src="../../lib/ext/ext-4.1.1a/ext-all.js"></script>
+	<script type="text/javascript" src="app/app.js"></script>
+
+	<!--   <script type="text/javascript" src="http://maps.zh.ch/print/info.json?var=printCapabilities"></script>
+	<script type="text/javascript" src="http://web.maps.zh.ch/print/info.json?var=printCapabilities"></script> 
+	<script type="text/javascript" src="/print/printinfo.json?var=printCapabilities"></script>-->
+	<script type="text/javascript" src="configs/edit_config.js"></script>
+	<script type="text/javascript" src="configs/export_config.js"></script>
+	<script type="text/javascript" src="configs/layer_filter_config.js"></script>
+	<script type="text/javascript">
+		var requestState = {
+			mainRequestedTopic: 'BASISKARTEZH',
+			backRequestedTopic: null,
+			//			overRequestedTopic: ['WaldWNBZH','AwelNISZH'],
+			//			overRequestedTopic: ['xxx', 'WaldWNBZH'],
+			//			mainDefaultTopic: 'Lageklassen2011ZH',
+			mainDefaultTopic: 'BASISKARTEZH',
+			backDefaultTopic: null,
+            offlayers: [],			scaleDenominator: 250000,
+			mapPos: [692000, 252000],
+			selection: null,
+/*
+                        selection: {
+                            seltopic: 'BASISKARTEZH',
+                            sellayer: 'gemeindegrenzen',
+                            selproperty: 'geodb_oid',
+                            selvalues: [261]
+                        },
+*/
+			filter: {
+				filtertopic: '',
+				filterlayer: '',
+				filtersql: ''
+			},
+			redlining: null
+//                        redlining: 'GEOMETRYCOLLECTION(POLYGON((683506 246810,682935 246471,682861 244388,683448 243313,685044 244512,684614 245165,684010 245289,683754 245860,683737 246248,683506 246810)))'
+//                        ,user: 'debug'
+		};
+	</script>
+
+	<script type="text/javascript" src="../../lib/openlayers/OpenLayers-2.12/OpenLayers.debug.js"></script>
+        <!-- load new edit tools explicitly for now -->
+        <script type="text/javascript" src="../../lib/openlayers/lib/OpenLayers/Control/ArcIntersection.js"></script>
+        <script type="text/javascript" src="../../lib/openlayers/lib/OpenLayers/Control/OrthogonalLines.js"></script>
+        <!-- for GPX import reprojection -->
+        <script type="text/javascript" src="../../lib/proj4js/lib/proj4js-compressed.js"></script>
+        <script type="text/javascript" src="../../lib/proj4js/lib/defs/EPSG21781.js"></script>
+
+	<script type="text/javascript" src="lib/GbZh/ol/FeatureQuery.js"></script>
+	<script type="text/javascript" src="lib/GbZh/ol/Zoom3.js"></script>
+	<script type="text/javascript" src="../gb41/locale/gb41-lang-de.js"></script> <!-- durch Ruby gesteuert einfügen -->
+	<!-- <script type="text/javascript" src="locale/gb41-lang-en.js"></script> durch Ruby gesteuert einfügen -->
+	<script type="text/javascript" src="loader.js"></script>
+	<script type="text/javascript" src="languages.js"></script>
+</head>
+<body></body>
+</html>

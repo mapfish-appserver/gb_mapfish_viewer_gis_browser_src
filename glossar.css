@@ -1,0 +1,70 @@
+
+BODY {
+	MARGIN-LEFT: 20;
+	MARGIN-TOP: 0;
+	MARGIN-RIGHT: 0;
+	background-color:#ffffff;
+}
+A   { color: #1d3e9e; font-size: 9pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; font-weight: bold; line-height: 20px; text-decoration: none }
+
+A:hover {
+	COLOR: #FF0000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*A:visited {
+	COLOR: #663399;
+	TEXT-DECORATION: underline;
+}*/
+TABLE {
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+	FONT-STYLE: normal;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 9pt;
+	LINE-HEIGHT: 12pt;
+	COLOR: #000000;
+	letter-spacing: 0.2mm;
+	padding-left: 1;
+	background-color: transparent;
+	VERTICAL-ALIGN: top;
+	text-align: left;
+   	BORDER: 0;
+   	BORDER-SPACING: 0;
+	BORDER-COLLAPSE: collapse;
+}
+
+TD {
+	VERTICAL-ALIGN: top;
+}
+.abgrenzung	{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #8698cb;
+}
+.rubrik-titel {
+	LINE-HEIGHT: 20pt;
+	background-color: #FFFFFF;
+}
+
+.titel   { color: #000; font-size: 11pt; font-style: italic; line-height: 16pt; padding-top: 3pt }
+
+.u-titel  { color: #ffffff; font-size: 10pt; font-weight: bold; line-height: 12pt; background-color: #8698cb; padding-top: 2pt; padding-bottom: 2pt }
+.obertitel { font-size: 16pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
+ul	{
+	list-style-position: outside;
+	margin-left: 15px;
+	margin-top: -16px;
+}
+
+ol	{
+	list-style-position: outside;
+	margin-left: 15px;
+}
+
+li	{
+	margin-bottom: 4px;
+	color: #000000;
+}
+.text  { font-size: 8pt; font-family: Arial, Helvetica, sans-serif }
+.blau { color: #1d3e9e }

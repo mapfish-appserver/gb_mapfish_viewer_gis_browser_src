@@ -1,0 +1,267 @@
+{
+    "success": true,
+    "gbtopics": [
+        {
+            "wms_layer_options": {
+                "ratio": 1,
+                "singleTile": true
+            },
+            "wms_layer_params": {
+                "format": "image/png; mode=8bit"
+            },
+            "base_layer": null,
+            "categories_topics_sort": 0,
+            "categorytitle": "Luft und Klima",
+            "missingpermission": false,
+            "title": "Standorte von Sendeanlagen (Mobilfunk und Rundfunk)",
+            "main_layer": true,
+            "wms_url": "http://wms.zh.ch/AwelNISZH",
+            "subtopics": [],
+            "organisationtitle": "Amt für Abfall, Wasser, Energie und Luft, Lufthygiene",
+            "hassubtopics": false,
+            "tools": [
+                "LineMeasureTool",
+                "AreaMeasureTool",
+                "PrevTool",
+                "NextTool",
+                "LinkTool",
+                "PrintTool"
+            ],
+            "geoliongdd": 540,
+            "name": "AwelNISZH",
+            "overlay_layer": null,
+            "categorysort": 1,
+            "icon": "/images/custom/themekl-awelniszh.gif",
+            "print_title": "Standorte von Sendeanlagen (Mobilfunk und Rundfunk)",
+            "gbapp_specific": 0,
+            "organisationsort": 55
+        },
+        {
+            "wms_layer_options": {
+                "ratio": 1,
+                "singleTile": true
+            },
+            "wms_layer_params": {
+                "format": "image/png; mode=8bit"
+            },
+            "base_layer": null,
+            "categories_topics_sort": 0,
+            "categorytitle": "Boden",
+            "missingpermission": false,
+            "title": "Fruchtfolgeflächen (FFF)",
+            "main_layer": true,
+            "wms_url": "http://wms.zh.ch/FaBoFFFZH",
+            "subtopics": [],
+            "organisationtitle": "Amt für Landschaft und Natur, Bodenschutz",
+            "hassubtopics": false,
+            "tools": [
+                "LineMeasureTool",
+                "AreaMeasureTool",
+                "PrevTool",
+                "NextTool",
+                "LinkTool",
+                "PrintTool"
+            ],
+            "geoliongdd": 568,
+            "name": "FaBoFFFZH",
+            "overlay_layer": null,
+            "categorysort": 6,
+            "icon": "/images/custom/themekl-fabofffzh.gif",
+            "print_title": "Fruchtfolgeflächen (FFF)",
+            "gbapp_specific": 0,
+            "organisationsort": 57
+        },
+        {
+            "wms_layer_options": {
+                "ratio": 1,
+                "singleTile": true
+            },
+            "wms_layer_params": {
+                "format": "image/png; mode=8bit"
+            },
+            "base_layer": null,
+            "categories_topics_sort": 0,
+            "categorytitle": "Georeferenzdaten",
+            "missingpermission": false,
+            "title": "BASISKARTEN (Landeskarten, Übersichtspläne)",
+            "main_layer": true,
+            "wms_url": "http://wms.zh.ch/BASISKARTEZH",
+            "subtopics": [],
+            "organisationtitle": "Amt für Raumentwicklung, Geoinformation, GIS-Zentrum",
+            "hassubtopics": false,
+            "tools": [
+                "LineMeasureTool",
+                "AreaMeasureTool",
+                "PrevTool",
+                "NextTool",
+                "LinkTool",
+                "PrintTool"
+            ],
+            "geoliongdd": 501,
+            "name": "BASISKARTEZH",
+            "overlay_layer": null,
+            "categorysort": 8,
+            "icon": "/images/custom/themekl-basiskartezh.gif",
+            "print_title": "BASISKARTEN (Landeskarten, Übersichtspläne)",
+            "gbapp_specific": 0,
+            "organisationsort": 65
+        },
+        {
+            "wms_layer_options": {
+                "ratio": 1,
+                "singleTile": true
+            },
+            "wms_layer_params": {
+                "format": "image/png; mode=8bit"
+            },
+            "base_layer": false,
+            "categories_topics_sort": 4,
+            "categorytitle": "Bauten",
+            "missingpermission": false,
+            "title": "Lageklassen 2011",
+            "main_layer": true,
+            "wms_url": "http://wms.zh.ch/Lageklassen2011ZH",
+            "subtopics": [
+                {
+                    "categories_topics_sort": 3,
+                    "subtopictitle": "Lageklassen 2009",
+                    "subtopicname": "Lageklassen2009ZH"
+                },
+                {
+                    "categories_topics_sort": 2,
+                    "subtopictitle": "Lageklassen 2004",
+                    "subtopicname": "Lageklassen2004ZH"
+                },
+                {
+                    "categories_topics_sort": 1,
+                    "subtopictitle": "2003",
+                    "subtopicname": "Lageklassen2003ZH"
+                }
+            ],
+            "organisationtitle": "Steueramt",
+            "hassubtopics": true,
+            "tools": [
+                "LineMeasureTool",
+                "AreaMeasureTool",
+                "PrevTool",
+                "NextTool",
+                "LinkTool",
+                "PrintTool"
+            ],
+            "geoliongdd": 507,
+            "name": "Lageklassen2011ZH",
+            "overlay_layer": false,
+            "categorysort": 17,
+            "icon": "/images/custom/themekl-lageklassen2011zh.gif",
+            "print_title": "Lageklassen 2011",
+            "gbapp_specific": 0,
+            "organisationsort": 73
+        },
+        {
+            "wms_layer_options": {
+                "ratio": 1,
+                "singleTile": true
+            },
+            "wms_layer_params": {
+                "format": "image/png; mode=8bit"
+            },
+            "base_layer": null,
+            "categories_topics_sort": 0,
+            "categorytitle": "Flora und Fauna, Vegetation",
+            "missingpermission": false,
+            "title": "Objekte Lichte Wälder",
+            "main_layer": true,
+            "wms_url": "http://wms.zh.ch/FnsLWZH",
+            "subtopics": [],
+            "organisationtitle": "Amt für Landschaft und Natur, Naturschutz",
+            "hassubtopics": false,
+            "tools": [
+                "LineMeasureTool",
+                "AreaMeasureTool",
+                "PrevTool",
+                "NextTool",
+                "LinkTool",
+                "PrintTool"
+            ],
+            "geoliongdd": 524,
+            "name": "FnsLWZH",
+            "overlay_layer": null,
+            "categorysort": 22,
+            "icon": "/images/custom/themekl-fnslwzh.gif",
+            "print_title": "Objekte Lichte Wälder",
+            "gbapp_specific": 0,
+            "organisationsort": 60
+        },
+        {
+            "wms_layer_options": {
+                "ratio": 1,
+                "singleTile": true
+            },
+            "wms_layer_params": {
+                "format": "image/png; mode=8bit"
+            },
+            "base_layer": null,
+            "categories_topics_sort": 0,
+            "categorytitle": "Flora und Fauna, Vegetation",
+            "missingpermission": false,
+            "title": "Waldstandorte von naturkundlicher Bedeutung",
+            "main_layer": true,
+            "wms_url": "http://wms.zh.ch/WaldWNBZH",
+            "subtopics": [],
+            "organisationtitle": "Amt für Landschaft und Natur, Wald",
+            "hassubtopics": false,
+            "tools": [
+                "LineMeasureTool",
+                "AreaMeasureTool",
+                "PrevTool",
+                "NextTool",
+                "LinkTool",
+                "PrintTool"
+            ],
+            "geoliongdd": 528,
+            "name": "WaldWNBZH",
+            "overlay_layer": null,
+            "categorysort": 22,
+            "icon": "/images/custom/themekl-waldwnbzh.gif",
+            "print_title": "Waldstandorte von naturkundlicher Bedeutung",
+            "gbapp_specific": 0,
+            "organisationsort": 62
+        },
+        {
+            "wms_layer_options": {
+                "ratio": 1,
+                "singleTile": true
+            },
+            "wms_layer_params": {
+                "format": "image/png; mode=8bit"
+            },
+            "base_layer": null,
+            "categories_topics_sort": 2,
+            "categorytitle": "Flora und Fauna, Vegetation",
+            "missingpermission": false,
+            "title": "Vegetationskundliche Kartierung der Wälder im Kanton Zürich",
+            "main_layer": true,
+            "wms_url": "http://wms.zh.ch/WaldVKZH",
+            "subtopics": [],
+            "organisationtitle": "Amt für Landschaft und Natur, Wald",
+            "hassubtopics": false,
+            "tools": [
+                "LineMeasureTool",
+                "AreaMeasureTool",
+                "PrevTool",
+                "NextTool",
+                "LinkTool",
+                "PrintTool"
+            ],
+            "geoliongdd": 529,
+            "name": "WaldVKZH",
+            "overlay_layer": null,
+            "categorysort": 22,
+            "icon": "/images/custom/themekl-waldvkzh.gif",
+            "print_title": "Vegetationskundliche Kartierung der Wälder im Kanton Zürich",
+            "gbapp_specific": 0,
+            "organisationsort": 62
+        }
+    ],
+    "results": 7
+}
